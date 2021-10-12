@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+header{
+    background: url(./images/title-build_01.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 100%;
+    height: 768px;
+    margin: auto;
+   
+}
+header nav{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin-left: 170px;
+    margin-right: 165px;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+header nav .logo{
+    color: #b78601;
+    font-family:  'Roboto', sans-serif;
+    padding-top: 25px;
+}
+header nav ul{
+    display: flex;
+    padding-top: 25px;
+    
+}
+header nav ul li a{
+    padding: 13px 23px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+}
+.asd{
+    color: #b78601;
+}
+header h2{
+    font-family: 'Montserrat', sans-serif;
+   
+    color: #b78601;
+    margin-top: 50px;
+    margin-left:  172px;
+    font-size: 55px;
+    font-weight: 400;
+   
+}
+header h3{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 190px;
+    color: #ffffff;
+    margin-left: 172px;
+    font-size: 45px;
+    font-weight: 400;   
+}
+
+header p{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 45px;
+    margin-left: 165px;
+    font-size: 100;
+    font-weight: 22px;
+}
+header button{
+    margin-top: 50px;
+    margin-left: 165px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    width: 250px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 22px;
+    background: none;
+    color: #ffffff;
+}
+section{
+    background: url(./images/title-build_01_02.jpg);
+}
+section h2{
+    margin-top: 150px;
+    margin-left: 165px;
+    margin-bottom: 85px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: 22px;
+}
+section .img{
+    width: 1160px;
+   margin-left: 165px;
+   margin: auto; 
+}
+section .img  img{
+    margin: 15px;
+}
+section{
+    margin-bottom: 100px;
+    
+}
+main{
+    background: black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+main h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: 22px;
+    color: #ffffff;
+    padding: 150px;
+    padding-left: 465px;
+}
+main .qiz{
+    width: 1105px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  
+}
+main p{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 27px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 100px;
+    
+    
+}
+main .girl{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+main a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #ffffff;
+}
+main .facebook{
+    display: flex;
+    align-items: center;
+    
+}
+main .facebook a{
+    margin-right: 17px;
+    margin-top: 25px;
+}
+.second{
+    background: white;
+    width: 100%;
+   height: 750px;
+   display: flex;
+   flex-direction: column;
+   padding-top: 100px;
+   padding-left: 165px;
+
+    
+}
+.second .Bosh{
+    padding-left: 300px;
+}
+.second .sahifa{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1115px;
+    
+    
+    
+}
+ .second .plitka{
+    font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+section .img1{
+    height: 200px;
+    width: 250px;
+    background: url(./images/kafel_03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.second .sahifa .plitka .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #181818;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);   
+    width: 250px;
+    padding-top: 25px ;
+    padding-left: 32px;
+    padding-bottom: 40px;
+
+}
+.second .sahifa .plitka .text h4{
+color: #ffffff;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 18px;
+
+
+}
+.second .sahifa .plitka .text p{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 22px;
+}
+.second .Bosh{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #181818;
+    margin: 0;
+    margin-bottom: 100px;
+}
+.info{
+    width: 100%;
+    height: 855px;
+    background: url(./images/maaaaaaa_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto
+}
+section .menu h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    padding-top: 200px;
+    padding-left: 165px;
+    color: #ffffff;
+
+}
+section .menu .lorem{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    padding-left: 165px;
+    padding-right: 355px;
+    padding-top: 50px;
+    
+}
+section .but{
+    margin-top: 100px;
+    margin-left: 165px;
+    width: 245px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    border: 2px solid #ffffff;
+    border-radius: 22px;
+    background: none;
+    color: #ffffff;
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    background: url(./images/footer_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+footer {
+    padding-top: 100px;  
+    padding-left: 165px;
+    padding-right: 165px;
+    
+}
+footer .information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .information ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    display: flex;
+    margin-left: 30px;
+   
+}
+
+footer .information ul{
+    display: flex;
+
+}
+footer .start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .right{
+    
+    padding-top: 25px;
+}
+footer .right p{
+    width: 545px;
+    color: #7b7b7b;
+  
+}
+
+footer .left{
+    display: flex;
+    flex-direction: column;
+   
+}
+footer .left a{
+    color: #ffffff;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+footer .end{
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .end p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-right: 1px;
+}
+footer .end a{
+    display: block;
+  margin-left: 5px;
+}
+
+footer .end a{
+    color: white;
+}
+footer .end a span{
+    color: #b78601;
+}
+
